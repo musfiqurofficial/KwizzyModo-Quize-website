@@ -37,22 +37,6 @@ export const Header = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="topic"
-                                aria-label="Our product"
-                                title="Our product"
-                                className={({ isActive, isPending }) =>
-                                    isActive
-                                        ? `transition delay-150 duration-300 ease-in-out text-orange-400 text-xl font-bold`
-                                        : isPending
-                                            ? "pending"
-                                            : `font-medium tracking-wide text-gray-100 hover:transition delay-150 duration-300 ease-in-out hover:text-orange-400 hover:text-xl hover:font-bold`
-                                }
-                            >
-                                Topic
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
                                 to="/statistics"
                                 aria-label="Product pricing"
                                 title="Product pricing"
@@ -177,16 +161,6 @@ export const Header = () => {
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
                                                     Home
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink
-                                                    to="/topic"
-                                                    aria-label="Our product"
-                                                    title="Our product"
-                                                    className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                                >
-                                                    Topic
                                                 </NavLink>
                                             </li>
                                             <li>

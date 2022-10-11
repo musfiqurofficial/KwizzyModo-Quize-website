@@ -6,7 +6,6 @@ import Home from "../components/Home";
 import Quiz from "../components/Quiz";
 import Root from "../components/Root";
 import Statistics from "../components/Statistics";
-import Topic from "../components/Topic";
 
 const router = createBrowserRouter([
     {
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
         children: [
             { path: '/', element: <Home /> },
             { path: '/home', element: <Home /> },
-            { path: '/topic', element: <Topic /> },
             { path: '/statistics', element: <Statistics /> },
             { path: '/about', element: <About /> },
             { path: '/blog', element: <Blog /> },

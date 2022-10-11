@@ -6,9 +6,17 @@ const SingleQuiz = ({ qus }) => {
     const { id, correctAnswer, question, options } = qus;
 
     const handleRightAnsClick = (options) => {
-        if (correctAnswer === options) {
-            toast.success("Success", { autoClose: 500 })
-        }
+        // console.log(options)
+        options.forEach(option => {
+            if (correctAnswer === option) {
+                toast.success("Success", { autoClose: 500 })
+            } else {
+                toast.error("Wrong Ans", { autoClose: 500 })
+            }
+
+        });
+
+
     }
     return (
         <div>

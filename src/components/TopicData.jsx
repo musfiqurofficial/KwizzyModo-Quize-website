@@ -11,7 +11,7 @@ export const TopicData = ({ topic }) => {
                     <p className="dark:text-gray-100">Total: {total}</p>
                 </div>
                 <Link to={`/quiz/${id}`}>
-                    <button className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-purple-600 dark:text-gray-200">Read more</button>
+                    <button className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-purple-600 dark:text-gray-200">Quiz</button>
                 </Link>
             </div>
         </div>

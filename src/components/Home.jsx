@@ -6,7 +6,6 @@ import { TopicData } from './TopicData';
 
 const Home = () => {
     const topics = useContext(TopicContext)
-    console.log(topics.total);
     return (
         <div className='bg-gray-200'>
             <HeroArea></HeroArea>
