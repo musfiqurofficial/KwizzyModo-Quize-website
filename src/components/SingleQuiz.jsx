@@ -9,9 +9,9 @@ const SingleQuiz = ({ qus }) => {
         // options.forEach(option => {
         console.log(values);
         if (correctAnswer === values) {
-            toast.success("Success", { autoClose: 500 })
+            toast.success("Right Answer", { autoClose: 500 })
         } else {
-            toast.error("Wrong Ans", { autoClose: 500 })
+            toast.error("Wrong Answer", { autoClose: 500 })
         }
         // });
     }
