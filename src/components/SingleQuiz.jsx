@@ -5,18 +5,15 @@ import 'react-toastify/dist/ReactToastify.css';
 const SingleQuiz = ({ qus }) => {
     const { id, correctAnswer, question, options } = qus;
 
-    const handleRightAnsClick = (options) => {
-        // console.log(options)
-        options.forEach(option => {
-            if (correctAnswer === option) {
-                toast.success("Success", { autoClose: 500 })
-            } else {
-                toast.error("Wrong Ans", { autoClose: 500 })
-            }
-
-        });
-
-
+    const handleRightAnsClick = values => {
+        // options.forEach(option => {
+        console.log(values);
+        if (correctAnswer === values) {
+            toast.success("Success", { autoClose: 500 })
+        } else {
+            toast.error("Wrong Ans", { autoClose: 500 })
+        }
+        // });
     }
     return (
         <div>
@@ -39,19 +36,19 @@ const SingleQuiz = ({ qus }) => {
                 </div>
             </div>
             <div className='grid grid-cols-2 gap-5 text-black my-5'>
-                <button onClick={() => handleRightAnsClick(options)} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
+                <button onClick={() => handleRightAnsClick(options[0])} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
                     <input className='w-5 h-5' type="radio" id="html" name="fav_language" value="HTML" />
                     <p className='ml-3'>{options[0]}</p>
                 </button>
-                <button onClick={() => handleRightAnsClick(options)} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
+                <button onClick={() => handleRightAnsClick(options[1])} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
                     <input className='w-5 h-5' type="radio" id="html" name="fav_language" value="HTML" />
                     <p className='ml-3'>{options[1]}</p>
                 </button>
-                <button onClick={() => handleRightAnsClick(options)} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
+                <button onClick={() => handleRightAnsClick(options[2])} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
                     <input className='w-5 h-5' type="radio" id="html" name="fav_language" value="HTML" />
                     <p className='ml-3'>{options[2]}</p>
                 </button>
-                <button onClick={() => handleRightAnsClick(options)} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
+                <button onClick={() => handleRightAnsClick(options[3])} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
                     <input className='w-5 h-5' type="radio" id="html" name="fav_language" value="HTML" />
                     <p className='ml-3'>{options[3]}</p>
                 </button>
