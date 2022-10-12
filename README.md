@@ -1,5 +1,5 @@
 # Code Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-musfiqurofficial
-# Live Site Link:
+# Live Site Link: https://kwizzymodo.netlify.app
 
 ## Create-React-app create.
 
