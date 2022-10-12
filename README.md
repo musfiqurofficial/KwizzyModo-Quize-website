@@ -9,3 +9,7 @@
 
 ## Context API use.
 
+## Dynamic data load.
+
+## Responsive.
+
