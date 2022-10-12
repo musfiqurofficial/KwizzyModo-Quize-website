@@ -35,7 +35,7 @@ const SingleQuiz = ({ qus }) => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-2 gap-5 text-black my-5'>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-5 text-black my-5'>
                 <button onClick={() => handleRightAnsClick(options[0])} className='flex justify-center items-center bg-slate-200 p-5 rounded-md'>
                     <input className='w-5 h-5' type="radio" id="html" name="fav_language" value="HTML" />
                     <p className='ml-3'>{options[0]}</p>
