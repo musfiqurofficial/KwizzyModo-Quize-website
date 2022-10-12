@@ -12,18 +12,16 @@ export const Footer = () => {
                             title="Company"
                             className=""
                         >
-                            <span className="text-xl font-bold text-gray-200">
+                            <span className="text-3xl font-bold text-gray-200 text-amber-300">
                                 KwizzyModo
                             </span>
                         </Link>
                         <div className="mt-6 lg:max-w-sm">
                             <p className="text-sm text-gray-200">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam.
+                                The platform has multiple options for gameplay, and a visual interface which is pleasing for the audience. The support from the team has been fantastic and has been very interested in receiving our feedback.
                             </p>
                             <p className="mt-4 text-sm text-gray-200">
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
+                                I have tested other similar platforms and can easily and confidently state that Quizizz is the best.
                             </p>
                         </div>
                     </div>

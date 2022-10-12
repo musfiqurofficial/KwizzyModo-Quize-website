@@ -8,21 +8,19 @@ const About = () => {
                     <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
                         <div className="flex flex-col justify-center">
                             <div className="max-w-xl mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                    The quick, brown fox
+                                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl sm:leading-none">
+                                    Engage remote employees
                                     <br className="hidden md:block" />
-                                    jumps over{' '}
+                                    and retain{' '}
                                     <span className="relative px-1">
                                         <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
                                         <span className="relative inline-block text-deep-purple-accent-400">
-                                            a lazy dog
+                                            customers.
                                         </span>
                                     </span>
                                 </h2>
-                                <p className="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae. explicabo.
+                                <p className="text-base text-gray-200 md:text-lg">
+                                    Create quizzes, presentations, polls, and e-learning that anyone can play on any device.
                                 </p>
                             </div>
                             <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
